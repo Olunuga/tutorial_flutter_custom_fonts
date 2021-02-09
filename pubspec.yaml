@@ -1,0 +1,40 @@
+name: yt_flutter_fonts
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  google_fonts: ^1.1.2
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Bold.ttf
+        - asset: fonts/Lato-Light.ttf
+          weight: 100
+        - asset: fonts/Lato-Regular.ttf
+        - asset: fonts/Lato-Thin.ttf
+          weight: 200
+
+    - family : LatoThin
+      fonts:
+        - asset: fonts/Lato-Thin.ttf
+    - family: LatoLight
+      fonts:
+        - asset: fonts/Lato-Light.ttf
